@@ -5,7 +5,7 @@ let hero = new Image();
 hero.src = "assets/img/Darwin.png";
 
 let bg = new Image();
-bg.src = "assets/img/Background.png";
+bg.src = "assets/img/bg.png";
 
 function game() {
     ctx.drawImage(bg, 0, 0, 500, 150);
